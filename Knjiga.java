@@ -16,9 +16,9 @@ import java.util.HashMap;
 public class Knjiga {
 	private String imeFajla;
 
-	public Knjiga(String lokacijaFajla) {
+	public Knjiga(String imeFajla) {
 		super();
-		this.imeFajla = lokacijaFajla;
+		this.imeFajla = imeFajla;
 	}
 	
 	public HashMap<String, Integer> brojacReci(Recnik R){
